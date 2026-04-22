@@ -33,7 +33,12 @@
                 @endguest
             </ul>
         </div>
-        <a class="btn btn-ghost text-xl font-bold" href="{{ route('home') }}"><span class="text-neutral">I</span><span class="text-primary">Blog</span></a>
+        <a class="flex items-center gap-2" href="{{ route('home') }}">
+                    <svg class="w-9 h-9 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                    <span class="text-2xl font-black tracking-widest"><span class="text-base-content">I</span><span class="text-primary">Blog</span></span>
+                </a>
     </div>
     <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
