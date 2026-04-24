@@ -21,6 +21,7 @@
                         </details>
                     </li>
                     <li><a href="{{ route('articles.create') }}">Write Article</a></li>
+                    <li><a href="{{ route('profile.show') }}">Profile</a></li>
                     <li>
                         <form action="{{ route('logout') }}" method="POST">
                             @csrf
@@ -40,14 +41,14 @@
             <li><a href="{{ route('home') }}" class="hover:text-primary transition">Home</a></li>
             <li><a href="{{ route('articles.index') }}" class="hover:text-primary transition">Articles</a></li>
             @auth
+                <li><a href="{{ route('profile.show') }}" class="hover:text-primary transition">Profile</a></li>
                 <li>
                     <details>
                         <summary class="hover:text-primary transition">My Articles</summary>
                         <ul class="p-2 bg-base-100 shadow-lg rounded-box mt-2">
                             <li><a href="{{ route('my.articles', 'published') }}">Published</a></li>
                             <li><a href="{{ route('my.articles', 'draft') }}">Draft</a></li>
-                            <li><a href="{{ route('profile.show') }}">Profile</a></li>
-                        <li><a href="{{ route('articles.create') }}">Write One</a></li>
+                            <li><a href="{{ route('articles.create') }}">Write One</a></li>
                         </ul>
                     </details>
                 </li>
