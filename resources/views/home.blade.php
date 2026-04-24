@@ -2,7 +2,7 @@
     <div class="hero py-20">
         <div class="hero-content text-center">
             <div class="max-w-2xl">
-                <h1 class="text-5xl font-bold mb-6">Welcome to <span class="text-neutral">I</span><span class="text-primary">Blog</span></h1>
+                <h1 class="text-5xl font-bold mb-6">Welcome to <span class="text-base-content">I</span><span class="text-primary">Blog</span></h1>
                 <p class="text-lg text-base-content/70 mb-8">Discover amazing stories, share your thoughts, and connect
                     with a community of writers.</p>
                 <div class="flex gap-4 justify-center">
