@@ -3,7 +3,7 @@
         <div class="max-w-md w-full">
             <div class="text-center mb-8">
                 <a href="{{ route('home') }}" class="text-4xl font-bold inline-flex">
-                    <span class="text-neutral">I</span><span class="text-primary">Blog</span>
+                    <span class="text-neutral dark:text-white">I</span><span class="text-primary">Blog</span>
                 </a>
             </div>
 
